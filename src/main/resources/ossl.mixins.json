@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "jp.fishmans.ossl.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "LivingEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

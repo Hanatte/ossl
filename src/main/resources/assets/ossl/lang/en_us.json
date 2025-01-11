@@ -1,0 +1,7 @@
+{
+  "commands.cast.failed": "Couldn't cast skill %2$s for %1$s: %3$s",
+  "commands.cast.failed.entity": "%s is not a valid entity for this command",
+  "commands.cast.success.multiple": "Cast skill %2$s for %1$s entities",
+  "commands.cast.success.single": "Cast skill %2$s for %1$s",
+  "skill.notFound": "Unknown skill: %s"
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "ossl-testmod",
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "jp.fishmans.ossl.channeling.ChannelingTest",
+      "jp.fishmans.ossl.skill.SkillTest"
+    ]
+  },
+  "depends": {
+    "ossl": "*"
+  }
+}

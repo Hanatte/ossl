@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "ossl",
+  "version": "${version}",
+  "authors": [
+    "Hanatte"
+  ],
+  "license": "Apache-2.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "jp.fishmans.ossl.OsslMod"
+    ]
+  },
+  "mixins": [
+    "ossl.mixins.json"
+  ],
+  "custom": {
+    "loom:injected_interfaces": {
+      "net/minecraft/class_1309": [
+        "jp/fishmans/ossl/entity/LivingEntityExtensions"
+      ]
+    }
+  },
+  "depends": {
+    "minecraft": ">=${minecraft_version}",
+    "fabricloader": ">=${fabric_loader_version}",
+    "fabric-api": ">=${fabric_api_version}"
+  }
+}
